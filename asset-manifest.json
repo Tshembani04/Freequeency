@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/FreeQueency/static/css/main.c2dcf9f7.chunk.css",
+    "main.js": "/FreeQueency/static/js/main.4f7adfb8.chunk.js",
+    "main.js.map": "/FreeQueency/static/js/main.4f7adfb8.chunk.js.map",
+    "runtime-main.js": "/FreeQueency/static/js/runtime-main.e4e51b6d.js",
+    "runtime-main.js.map": "/FreeQueency/static/js/runtime-main.e4e51b6d.js.map",
+    "static/js/2.30a60099.chunk.js": "/FreeQueency/static/js/2.30a60099.chunk.js",
+    "static/js/2.30a60099.chunk.js.map": "/FreeQueency/static/js/2.30a60099.chunk.js.map",
+    "static/js/3.abba440a.chunk.js": "/FreeQueency/static/js/3.abba440a.chunk.js",
+    "static/js/3.abba440a.chunk.js.map": "/FreeQueency/static/js/3.abba440a.chunk.js.map",
+    "index.html": "/FreeQueency/index.html",
+    "static/css/main.c2dcf9f7.chunk.css.map": "/FreeQueency/static/css/main.c2dcf9f7.chunk.css.map",
+    "static/js/2.30a60099.chunk.js.LICENSE.txt": "/FreeQueency/static/js/2.30a60099.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/FreeQueency/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4e51b6d.js",
+    "static/js/2.30a60099.chunk.js",
+    "static/css/main.c2dcf9f7.chunk.css",
+    "static/js/main.4f7adfb8.chunk.js"
+  ]
+}
