@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Tshembani04.github.io/FreeQueency",
+  "homepage": "http://Tshembani04.github.io/Freequeency",
   "name": "freequeency",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +14,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "delpoy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
