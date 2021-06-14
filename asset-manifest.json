@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/Freequeency/static/css/main.c2dcf9f7.chunk.css",
-    "main.js": "/Freequeency/static/js/main.4f7adfb8.chunk.js",
-    "main.js.map": "/Freequeency/static/js/main.4f7adfb8.chunk.js.map",
+    "main.css": "/Freequeency/static/css/main.c4ed8f30.chunk.css",
+    "main.js": "/Freequeency/static/js/main.030e54d7.chunk.js",
+    "main.js.map": "/Freequeency/static/js/main.030e54d7.chunk.js.map",
     "runtime-main.js": "/Freequeency/static/js/runtime-main.6cd0abe6.js",
     "runtime-main.js.map": "/Freequeency/static/js/runtime-main.6cd0abe6.js.map",
-    "static/js/2.30a60099.chunk.js": "/Freequeency/static/js/2.30a60099.chunk.js",
-    "static/js/2.30a60099.chunk.js.map": "/Freequeency/static/js/2.30a60099.chunk.js.map",
+    "static/js/2.5a0cf7da.chunk.js": "/Freequeency/static/js/2.5a0cf7da.chunk.js",
+    "static/js/2.5a0cf7da.chunk.js.map": "/Freequeency/static/js/2.5a0cf7da.chunk.js.map",
     "static/js/3.abba440a.chunk.js": "/Freequeency/static/js/3.abba440a.chunk.js",
     "static/js/3.abba440a.chunk.js.map": "/Freequeency/static/js/3.abba440a.chunk.js.map",
     "index.html": "/Freequeency/index.html",
-    "static/css/main.c2dcf9f7.chunk.css.map": "/Freequeency/static/css/main.c2dcf9f7.chunk.css.map",
-    "static/js/2.30a60099.chunk.js.LICENSE.txt": "/Freequeency/static/js/2.30a60099.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/Freequeency/static/media/logo.6ce24c58.svg"
+    "static/css/main.c4ed8f30.chunk.css.map": "/Freequeency/static/css/main.c4ed8f30.chunk.css.map",
+    "static/js/2.5a0cf7da.chunk.js.LICENSE.txt": "/Freequeency/static/js/2.5a0cf7da.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6cd0abe6.js",
-    "static/js/2.30a60099.chunk.js",
-    "static/css/main.c2dcf9f7.chunk.css",
-    "static/js/main.4f7adfb8.chunk.js"
+    "static/js/2.5a0cf7da.chunk.js",
+    "static/css/main.c4ed8f30.chunk.css",
+    "static/js/main.030e54d7.chunk.js"
   ]
 }
