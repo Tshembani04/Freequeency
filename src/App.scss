@@ -1,0 +1,54 @@
+$yellowDark:#383520;
+$yellowLight:#AEA14E;
+$yellowLighter:#FCE96D;
+$blackDark: #111111;
+$greyLight: #e5e5e5;
+
+//minus the App height to get the music Controls
+.App {
+    height: calc(100vh - 90px);
+    background: $yellowLighter;
+  }
+//200px on the Desttop padding from above and aside
+.navBar{
+    width: 200px;
+    height: 100%;
+    background: $blackDark;
+    .logo{
+        padding: 1.5rem 1.5rem;
+        svg{
+            max-width: 130px;
+            p{
+
+            }
+        }
+    }
+} 
+
+
+//Is the child container on the App container
+  .outerWrap{
+    background: $blackDark;
+    height: 100vh;
+    min-height: 100%;
+}
+
+.musicControler{
+    background: $blackDark;
+    text-align: center;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.nav_logo {
+    position: fixed;
+    top: 10;
+    left: 0;
+    width: 80px;
+    object-fit: contain;
+    padding-left: 20px;
+    cursor: pointer;
+  }
