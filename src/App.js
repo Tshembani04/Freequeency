@@ -51,3 +51,7 @@ export default App;
 //git commit -m 'deploy my react app to github pages'
 // npm run deploy
 // git push -u origin master
+
+
+//SCSS 
+// npm  install node-sass --save
