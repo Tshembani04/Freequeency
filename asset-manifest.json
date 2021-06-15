@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Freequeency/static/css/main.939bfdaa.chunk.css",
-    "main.js": "/Freequeency/static/js/main.b0c808be.chunk.js",
-    "main.js.map": "/Freequeency/static/js/main.b0c808be.chunk.js.map",
+    "main.js": "/Freequeency/static/js/main.5d79caf0.chunk.js",
+    "main.js.map": "/Freequeency/static/js/main.5d79caf0.chunk.js.map",
     "runtime-main.js": "/Freequeency/static/js/runtime-main.6cd0abe6.js",
     "runtime-main.js.map": "/Freequeency/static/js/runtime-main.6cd0abe6.js.map",
     "static/js/2.5a0cf7da.chunk.js": "/Freequeency/static/js/2.5a0cf7da.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6cd0abe6.js",
     "static/js/2.5a0cf7da.chunk.js",
     "static/css/main.939bfdaa.chunk.css",
-    "static/js/main.b0c808be.chunk.js"
+    "static/js/main.5d79caf0.chunk.js"
   ]
 }
