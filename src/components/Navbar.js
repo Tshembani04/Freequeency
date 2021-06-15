@@ -58,6 +58,8 @@ function Navbar() {
         <li className="active">Home</li>
         <li>Serach</li>
         <li>Your Gallery</li>
+        <li>Login</li>
+        <li>Sign-Up</li>
       </ul>
       <div className="cookies">
         <span>Cookies</span>
