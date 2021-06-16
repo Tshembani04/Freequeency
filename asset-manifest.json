@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Freequeency/static/css/main.0949aaa0.chunk.css",
+    "main.css": "/Freequeency/static/css/main.993357bf.chunk.css",
     "main.js": "/Freequeency/static/js/main.630e7375.chunk.js",
     "main.js.map": "/Freequeency/static/js/main.630e7375.chunk.js.map",
     "runtime-main.js": "/Freequeency/static/js/runtime-main.6cd0abe6.js",
@@ -10,13 +10,13 @@
     "static/js/3.abba440a.chunk.js": "/Freequeency/static/js/3.abba440a.chunk.js",
     "static/js/3.abba440a.chunk.js.map": "/Freequeency/static/js/3.abba440a.chunk.js.map",
     "index.html": "/Freequeency/index.html",
-    "static/css/main.0949aaa0.chunk.css.map": "/Freequeency/static/css/main.0949aaa0.chunk.css.map",
+    "static/css/main.993357bf.chunk.css.map": "/Freequeency/static/css/main.993357bf.chunk.css.map",
     "static/js/2.5a0cf7da.chunk.js.LICENSE.txt": "/Freequeency/static/js/2.5a0cf7da.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6cd0abe6.js",
     "static/js/2.5a0cf7da.chunk.js",
-    "static/css/main.0949aaa0.chunk.css",
+    "static/css/main.993357bf.chunk.css",
     "static/js/main.630e7375.chunk.js"
   ]
 }
