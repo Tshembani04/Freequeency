@@ -3,11 +3,13 @@ $yellowLight: #aea14e;
 $yellowLighter: #fce96d;
 $blackDark: #111111;
 $greyText: #e5e5e5;
+$greyNav: #e5e5e5;
 
 //minus the App height to get the music Controls
 .App {
   height: calc(100vh - 90px);
   background: $yellowLighter;
+  display: flex;
 }
 //200px on the Desttop padding from above and aside
 .navBar {
@@ -18,7 +20,7 @@ $greyText: #e5e5e5;
   display: flex;
   flex-direction: column;
   .logo {
-    padding: 1.0rem 0.8rem;
+    padding: 1rem 0.8rem;
     svg {
       max-width: 100px;
       p {
@@ -37,23 +39,23 @@ $greyText: #e5e5e5;
       font-size: 0.9rem;
       cursor: pointer;
       transition: all 0.3s ease-out;
-      &.active{
-          background: $yellowDark;
+      &.active {
+        background: $yellowDark;
       }
-      &:hover{
-          color: $yellowLighter;
+      &:hover {
+        color: $yellowLighter;
       }
     }
   }
-  .cookies{
-      font-size: 0.5rem;
-      color: $yellowLight;
-      text-align: center;
-      margin-top: auto;
-      padding: 1rem;
-      span{
-          display: block;
-      }
+  .cookies {
+    font-size: 0.5rem;
+    color: $yellowLight;
+    text-align: center;
+    margin-top: auto;
+    padding: 1rem;
+    span {
+      display: block;
+    }
   }
 }
 
@@ -73,6 +75,25 @@ $greyText: #e5e5e5;
   justify-content: center;
   color: white;
   z-index: 2;
-    position: relative;
+  position: relative;
 }
 
+.upperNav {
+  background: $blackDark;
+  height: 56px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  color: white;
+}
+
+.main {
+  width: 100%;
+  .mainContent{
+    padding: 0.5rem 1.5rem;
+    h1{
+      font-size: 1.5rem;
+    }
+  }
+}

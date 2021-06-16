@@ -2,15 +2,17 @@ import React from "react";
 // import logo from "./logo.svg";
 import "./App.scss";
 import NavBar from "./components/Navbar";
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="outerWrap">
       <div className="App">
         <NavBar />
-        {/* We then have the music controls ubderneath */}
+        <Main/>
+        {/* We then have the music controls ubderneath */}</div>
         <div className="musicControler">Mucic Controls</div>
-      </div>
+      
     </div>
   );
 }
