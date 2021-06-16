@@ -5,6 +5,10 @@ $blackDark: #111111;
 $greyText: #e5e5e5;
 $greyNav: #e5e5e5;
 
+
+* {
+  box-sizing: border-box;
+}
 //minus the App height to get the music Controls
 .App {
   height: calc(100vh - 90px);
@@ -102,7 +106,7 @@ $greyNav: #e5e5e5;
   .card {
     background: $greyNav;
     border-radius: 10px;
-    width: 150px;
+    width: 180px;
     overflow: hidden;
     padding: 1.2rem;
     box-shadow: 5px 10px 8px #888888;
