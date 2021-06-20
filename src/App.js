@@ -3,16 +3,24 @@ import React from "react";
 import "./App.scss";
 import NavBar from "./components/Navbar";
 import Main from './components/Main';
-
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 function App() {
   return (
     <div className="outerWrap">
       <div className="App">
-        <NavBar />
-        <Main/>
-        {/* We then have the music controls ubderneath */}</div>
-        <div className="musicControler">Mucic Controls</div>
-      
+        <Router>
+          <NavBar />
+            <Switch>
+              <Route path="/Freequeency" exact>
+                <Main/>
+                {/* We then have the music controls ubderneath */}
+                <div className="musicControler">
+                  Mucic Controls
+                </div>
+              </Route>
+            </Switch>
+        </Router>
+      </div>
     </div>
   );
 }
