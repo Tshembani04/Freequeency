@@ -4,6 +4,7 @@ import "./App.scss";
 import NavBar from "./components/Navbar";
 import Main from './components/Main';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Search from "./components/Search";
 function App() {
   return (
     <div className="outerWrap">
@@ -17,6 +18,9 @@ function App() {
                 <div className="musicControler">
                   Mucic Controls
                 </div>
+              </Route>
+              <Route path="/Freequeency/search">
+                <Search/>
               </Route>
             </Switch>
         </Router>
