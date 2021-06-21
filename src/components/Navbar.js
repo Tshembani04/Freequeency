@@ -1,4 +1,7 @@
 import React from "react";
+import { ReactComponent as HomeIcon } from "../svgs/Home.svg";
+import { ReactComponent as SearchIcon } from "../svgs/Search.svg";
+import { ReactComponent as GalleryIcon } from "../svgs/Gallery.svg";
 
 {
   /* NavBar creation on the side tab */
@@ -55,11 +58,20 @@ function Navbar() {
       </div>
 
       <ul>
-        <li className="active">Home</li>
-        <li>Serach</li>
-        <li>Your Gallery</li>
-        <li>Login</li>
-        <li>Sign-Up</li>
+        <li className="active">
+          <HomeIcon />
+          Home
+        </li>
+        <li>
+          <SearchIcon />
+          Seach
+        </li>
+        <li>
+          <GalleryIcon />
+          Your Gallery
+        </li>
+        {/* <li>Login</li>
+        <li>Sign-Up</li> */}
       </ul>
       <div className="cookies">
         <span>Cookies</span>
