@@ -1,7 +1,11 @@
 import React from "react";
+
+import { Link } from "react-router-dom";
+
 import { ReactComponent as HomeIcon } from "../svgs/Home.svg";
 import { ReactComponent as SearchIcon } from "../svgs/Search.svg";
 import { ReactComponent as GalleryIcon } from "../svgs/Gallery.svg";
+
 
 {
   /* NavBar creation on the side tab */
@@ -58,6 +62,13 @@ function Navbar() {
       </div>
 
       <ul>
+
+        <li className="active"><Link to="/Freequeency/">Home</Link></li>
+        <li><Link to="/Freequeency/search">Search</Link></li>
+        <li>Your Gallery</li>
+        <li>Login</li>
+        <li>Sign-Up</li>
+
         <li className="active">
           <HomeIcon />
           Home
@@ -72,6 +83,7 @@ function Navbar() {
         </li>
         {/* <li>Login</li>
         <li>Sign-Up</li> */}
+
       </ul>
       <div className="cookies">
         <span>Cookies</span>

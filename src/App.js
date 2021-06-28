@@ -12,6 +12,20 @@ function App() {
       <div className="App">
         <Router>
           <NavBar />
+
+            <Switch>
+              <Route path="/Freequeency" exact>
+                <Main/>
+                {/* We then have the music controls ubderneath */}
+                <div className="musicControler">
+                  Music Controls
+                </div>
+              </Route>
+              <Route path="/Freequeency/search">
+                <Search/>
+              </Route>
+            </Switch>
+
           <Switch>
             <Route path="/Freequeency" exact>
               <Main />
@@ -20,6 +34,7 @@ function App() {
             </Route>
             <Route path="/Freequeency/search"></Route>
           </Switch>
+
         </Router>
       </div>
     </div>
