@@ -16,7 +16,7 @@ function App() {
                 <Main/>
                 {/* We then have the music controls ubderneath */}
                 <div className="musicControler">
-                  Mucic Controls
+                  Music Controls
                 </div>
               </Route>
               <Route path="/Freequeency/search">

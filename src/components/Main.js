@@ -1,8 +1,10 @@
 import React from "react";
+import Banner from "./Banner";
 
 function Main() {
   return (
     <div className="main">
+        <Banner/>
       <div className="upperNav">Dummy Text</div>
       <div className="mainContent">
         <h1>Uniquely yours</h1>
