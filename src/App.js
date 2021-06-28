@@ -1,17 +1,28 @@
 import React from "react";
-// import logo from "./logo.svg";
 import "./App.scss";
 import NavBar from "./components/Navbar";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Search from "./components/Search";
 
 function App() {
   return (
-    <div className="outerWrap">
-      <div className="App">
-        <NavBar />
-        {/* We then have the music controls ubderneath */}
-        <div className="musicControler">Mucic Controls</div>
+    <Router>
+      <div className="outerWrap">
+        <div className="App">
+          <Switch>
+            <Route path="/" exact >
+              <NavBar />
+              {/* We then have the music controls ubderneath */}
+              <div className="musicControler">Mucic Controls</div>
+            </Route>
+            <Route path="/search">
+              <Search/>
+            </Route>
+          </Switch>
+        </div>
       </div>
-    </div>
+    </Router>
+    
   );
 }
 
