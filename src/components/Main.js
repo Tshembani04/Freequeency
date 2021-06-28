@@ -1,5 +1,9 @@
 import React from "react";
+
 import Banner from "./Banner";
+
+import {ReactComponent as PlayIcon} from '../svgs/Player.svg'
+
 
 function Main() {
   return (
@@ -19,6 +23,9 @@ function Main() {
             <div className="cardContent">
               <h3>Liked Songs</h3>
             </div>
+            <span className= 'playIcon'>
+              <PlayIcon/>
+            </span>
           </div>
         </div>
       </div>

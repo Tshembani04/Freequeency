@@ -2,15 +2,17 @@ import React from "react";
 // import logo from "./logo.svg";
 import "./App.scss";
 import NavBar from "./components/Navbar";
-import Main from './components/Main';
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Main from "./components/Main";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Search from "./components/Search";
 function App() {
   return (
     <div className="outerWrap">
+      <Search />
       <div className="App">
         <Router>
           <NavBar />
+
             <Switch>
               <Route path="/Freequeency" exact>
                 <Main/>
@@ -23,6 +25,16 @@ function App() {
                 <Search/>
               </Route>
             </Switch>
+
+          <Switch>
+            <Route path="/Freequeency" exact>
+              <Main />
+              {/* We then have the music controls ubderneath */}
+              <div className="musicControler">{/* Mucic Controls */}</div>
+            </Route>
+            <Route path="/Freequeency/search"></Route>
+          </Switch>
+
         </Router>
       </div>
     </div>
