@@ -1,13 +1,28 @@
 $yellowDark: #383520;
-$yellowLight: #aea14e;
+$yellowLight: #bfbba2;
 $yellowLighter: #fce96d;
 $blackDark: #111111;
 $greyText: #e5e5e5;
 $greyNav: #e5e5e5;
 
-// * {
-//   box-sizing: border-box;
-// }
+
+@font-face {
+  font-family: Smooth Circulars;
+  src: url("./fonts/Smooth\ Circulars.otf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("./fonts/Roboto-Bold.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Smooth Circulars;
+}
 //minus the App height to get the music Controls
 .App {
   height: calc(100vh);
@@ -17,21 +32,15 @@ $greyNav: #e5e5e5;
 }
 //200px on the Desttop padding from above and aside
 .navBar {
-  width: 130px;
-  height: calc(100% - 10px);
+  width: 240px;
+  height: 100%;
   background: $blackDark;
-  padding: 10px;
+  padding: 0.4rem 0.4rem;
   display: flex;
   flex-direction: column;
   z-index: 10;
   .logo {
     padding: 1rem 0.8rem;
-    svg {
-      max-width: 100px;
-      p {
-        text-align: center;
-      }
-    }
   }
   ul {
     margin: 0;
@@ -40,10 +49,16 @@ $greyNav: #e5e5e5;
       color: $greyText;
       list-style-type: none;
       border-radius: 5px;
-      padding: 0.7rem;
+      padding: 0.3rem;
       font-size: 0.9rem;
       cursor: pointer;
       transition: all 0.3s ease-out;
+      font-family: Roboto-Bold;
+      display: flex;
+      align-items: center;
+      svg {
+        margin-right: 12px;
+      }
       &.active {
         background: $yellowDark;
       }
@@ -53,7 +68,7 @@ $greyNav: #e5e5e5;
     }
   }
   .cookies {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     color: $yellowLight;
     text-align: center;
     margin-top: auto;
@@ -108,12 +123,13 @@ $greyNav: #e5e5e5;
   .card {
     background: $greyNav;
     border-radius: 10px;
-    width: 160px;
+    width: 180px;
     overflow: hidden;
-    padding: 1.2rem;
+    padding: 1.2rem 1.2rem 3rem;
     box-shadow: 5px 10px 8px #888888;
+    position: relative;
     .cardImage {
-      height: 160px;
+      height: 130px;
       box-shadow: 5px 10px 8px #888888;
 
       img {
@@ -131,5 +147,20 @@ $greyNav: #e5e5e5;
         font-size: 0.9rem;
       }
     }
+  }
+}
+
+
+.playIcon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  background: #bfbba2;
+  position: absolute;
+  right: 1.2rem;
+  svg{
+    margin: auto;
   }
 }
