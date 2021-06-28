@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 {
   /* NavBar creation on the side tab */
 }
@@ -55,8 +55,8 @@ function Navbar() {
       </div>
 
       <ul>
-        <li className="active">Home</li>
-        <li>Serach</li>
+        <li className="active"><Link to="/">Home</Link></li>
+        <li><Link to="/search">Search</Link></li>
         <li>Your Gallery</li>
         <li>Login</li>
         <li>Sign-Up</li>

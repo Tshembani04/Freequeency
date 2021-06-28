@@ -3,6 +3,7 @@ import "./App.scss";
 import NavBar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Search from "./components/Search";
+import Banner from "./components/Banner";
 
 function App() {
   return (
@@ -11,15 +12,17 @@ function App() {
         <div className="App">
           <Switch>
             <Route path="/" exact >
+            <Banner/>
               <NavBar />
               {/* We then have the music controls ubderneath */}
-              <div className="musicControler">Mucic Controls</div>
+              <div className="musicControler">Mucic Controls</div>            
             </Route>
             <Route path="/search">
               <Search/>
             </Route>
           </Switch>
         </div>
+        
       </div>
     </Router>
     
