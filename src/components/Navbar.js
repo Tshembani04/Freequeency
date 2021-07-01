@@ -2,6 +2,9 @@ import React from "react";
 import { ReactComponent as HomeIcon } from "../svgs/Home.svg";
 import { ReactComponent as SearchIcon } from "../svgs/Search.svg";
 import { ReactComponent as GalleryIcon } from "../svgs/Gallery.svg";
+import { ReactComponent as LoginIcon } from "../svgs/Login.svg";
+import { ReactComponent as SignUpIcon } from "../svgs/SignUp.svg";
+
 
 {
   /* NavBar creation on the side tab */
@@ -70,8 +73,12 @@ function Navbar() {
           <GalleryIcon />
           Your Gallery
         </li>
-        <li>Login</li>
-        <li>Sign-Up</li>
+        <li>
+            <LoginIcon/>
+            Login</li>
+        <li>
+            <SignUpIcon/>
+            Sign-Up</li>
       </ul>
       <div className="cookies">
         <span>Cookies</span>
