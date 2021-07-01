@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.75ebbab4.chunk.css",
-    "main.js": "/static/js/main.1f7362c5.chunk.js",
-    "main.js.map": "/static/js/main.1f7362c5.chunk.js.map",
+    "main.js": "/static/js/main.c7f0a1b5.chunk.js",
+    "main.js.map": "/static/js/main.c7f0a1b5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0fd9d966.js",
     "runtime-main.js.map": "/static/js/runtime-main.0fd9d966.js.map",
     "static/css/2.4ce9e501.chunk.css": "/static/css/2.4ce9e501.chunk.css",
@@ -16,15 +16,17 @@
     "static/js/2.fcb110bb.chunk.js.LICENSE.txt": "/static/js/2.fcb110bb.chunk.js.LICENSE.txt",
     "static/media/Gallery.3e7034e2.svg": "/static/media/Gallery.3e7034e2.svg",
     "static/media/Home.cd71ea6b.svg": "/static/media/Home.cd71ea6b.svg",
+    "static/media/Login.48a4c2e4.svg": "/static/media/Login.48a4c2e4.svg",
     "static/media/Player.b3ad5814.svg": "/static/media/Player.b3ad5814.svg",
     "static/media/App.scss": "/static/media/Smooth Circulars.bc616444.otf",
-    "static/media/Search.1a0b3bf4.svg": "/static/media/Search.1a0b3bf4.svg"
+    "static/media/Search.1a0b3bf4.svg": "/static/media/Search.1a0b3bf4.svg",
+    "static/media/SignUp.cf2f2630.svg": "/static/media/SignUp.cf2f2630.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0fd9d966.js",
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.fcb110bb.chunk.js",
     "static/css/main.75ebbab4.chunk.css",
-    "static/js/main.1f7362c5.chunk.js"
+    "static/js/main.c7f0a1b5.chunk.js"
   ]
 }
