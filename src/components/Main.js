@@ -9,7 +9,9 @@ function Main() {
   return (
     <div className="main">
       <div className="upperNav">Dummy Text</div>
+      <Banner/>
       <div className="mainContent">
+        
         <h1>Uniquely yours</h1>
         <div className="cardsWrap">
           <div className="card">
